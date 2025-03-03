@@ -1,0 +1,13 @@
+{% extends 'EE.html' %}  <!-- Extend the base template, not itself -->
+
+{% block content %}
+    <h2>{{ user.username }}'s Profile</h2>
+    <a href="{{ url_for('follow', user_id=user.id) }}">Follow</a>
+    <div class="posts">
+        {% for post in posts %}
+            <div class="post">
+                <p>{{ post.content }}</p>
+            </div>
+        {% endfor %}
+    </div>
+{% endblock %}

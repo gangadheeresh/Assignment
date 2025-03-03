@@ -1,0 +1,38 @@
+body {
+    background-image: url('https//media.gettyimages.com/id/2151476647/photo/cricket-ind-ipl-t20-hyderabad-lucknow.webp?s=1024x1024&w=gi&k=20&c=U0aZv6Z6jySkErOLRgZCNHyMMIAcuV591XB_Bt0YG9k=;');
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+nav a {
+    color: rgb(53, 247, 4);
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+.post {
+    background-color: rgb(3, 245, 228);
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.comments {
+    margin-top: 10px;
+    padding-left: 20px;
+    border-left: 2px solid #ddd;
+}

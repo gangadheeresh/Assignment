@@ -1,0 +1,12 @@
+<body style="background-imageurl('https://media.gettyimages.com/id/2110555517/photo/cricket-ind-ipl-t20-hyderabad-mumbai.webp?s=1024x1024&w=gi&k=20&c=ZzD1D73iqNG46NdqojhryTtwiL1ys9GLAZGpzKd1z4s=');background-position: center;background-repeat: no-repeat;">
+{% extends 'EE.html' %}  <!-- Extend the base template, not itself -->
+
+{% block content %}
+    <h2>Register</h2>
+    <form action="{{ url_for('register') }}" method="post">
+        <input type="text" name="username" placeholder="Username" required>
+        <input type="password" name="password" placeholder="Password" required>
+        <button type="submit">Register</button>
+    </form>
+{% endblock %}
+</body>

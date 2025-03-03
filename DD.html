@@ -1,0 +1,12 @@
+<body style="background-imageurl('https://media.gettyimages.com/id/2151476647/photo/cricket-ind-ipl-t20-hyderabad-lucknow.jpg?s=1024x1024&w=gi&k=20&c=U0aZv6Z6jySkErOLRgZCNHyMMIAcuV591XB_Bt0YG9k=');background-position: center;background-repeat: no-repeat;">
+{% extends 'EE.html' %}  <!-- Extend the base template, not itself -->
+
+{% block content %}
+    <h2>Login</h2>
+    <form action="{{ url_for('login') }}" method="post">
+        <input type="text" name="username" placeholder="Username" required>
+        <input type="password" name="password" placeholder="Password" required>
+        <button type="submit">Login</button>
+    </form>
+{% endblock %}
+</body>
